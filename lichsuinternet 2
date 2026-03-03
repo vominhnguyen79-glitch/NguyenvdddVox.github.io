@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch sử Internet</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: #0d6efd;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: yellow;
+        }
+
+        /* CONTAINER */
+        .container {
+            width: 85%;
+            max-width: 1100px;
+            margin: 40px auto;
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #0d6efd;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #0d6efd;
+        }
+
+        h2 {
+            color: #0d6efd;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-left: 5px solid #0d6efd;
+            padding-left: 10px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .image-box {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .image-box img {
+            width: 100%;
+            max-width: 650px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .image-box i {
+            display: block;
+            margin-top: 10px;
+            color: gray;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0d6efd;
+            color: white;
+            margin-top: 40px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 20px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#gioithieu">Giới thiệu</a></li>
+        <li><a href="#tienthan">Tiền thân</a></li>
+        <li><a href="#wan">Mạng diện rộng</a></li>
+        <li><a href="#web">Công nghệ Web</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+<h1 id="gioithieu">Lịch Sử Internet</h1>
+
+<p>
+Lịch sử Internet bắt đầu với việc phát triển máy tính điện tử trong những năm 1950...
+Các khái niệm ban đầu về mạng diện rộng bắt nguồn từ một số phòng thí nghiệm khoa học máy tính ở Mỹ, Vương quốc Anh và Pháp.
+Bộ Quốc phòng Mỹ đã trao các hợp đồng sớm nhất là vào những năm 1960, bao gồm cả việc phát triển dự án ARPANET...
+Tin nhắn đầu tiên được gửi qua ARPANET vào năm 1969 từ UCLA đến Stanford Research Institute.
+</p>
+
+<div class="image-box">
+    <img src="https://i.ibb.co/3999St0F/lich-su-phat-trien-cua-internet-qua-cac-thoi-ky-2-1.jpg">
+    <i>Lịch sử phát triển của Internet qua các thời kỳ</i>
+</div>
+
+<p>
+Bộ giao thức Internet (TCP/IP) được phát triển bởi Robert E. Kahn và Vint Cerf những năm 1970...
+ARPANET đã ngừng hoạt động vào năm 1990...
+NSFNET ngừng hoạt động năm 1995, mở đường cho Internet thương mại.
+</p>
+
+<h2 id="tienthan">Tiền Thân</h2>
+
+<p>
+Khái niệm về giao tiếp dữ liệu - truyền dữ liệu giữa hai nơi khác nhau thông qua môi trường điện từ như radio hoặc dây điện - xuất hiện trước cả máy tính.
+Telegraph cuối thế kỷ 19 là hệ thống truyền thông kỹ thuật số đầu tiên.
+</p>
+
+<p>
+Claude Shannon, Harry Nyquist và Ralph Hartley đã đặt nền móng lý thuyết thông tin.
+Mô hình điểm-điểm ban đầu bị hạn chế vì không có đường thay thế khi bị tấn công.
+</p>
+
+<h2 id="wan">Phát Triển Mạng Diện Rộng</h2>
+
+<p>
+Các mạng cục bộ (LAN) kết nối trong phạm vi nhỏ.
+Mạng diện rộng (WAN) xuất hiện từ những năm 1950 và phát triển mạnh vào thập niên 1960.
+</p>
+
+<h2 id="web">Công Nghệ Web</h2>
+
+<p>
+Web được hình thành dựa trên HTML.
+Các trình duyệt như Mosaic và Netscape đã đưa văn bản và hình ảnh vào cùng một giao diện.
+HTML phát triển thành HTML4, sau đó có CSS và AJAX giúp website trở nên động hơn.
+</p>
+
+</div>
+
+<footer>
+© 2026 Minh Nguyên | Website dạng bài nghiên cứu
+</footer>
+
+</body>
+</html>
